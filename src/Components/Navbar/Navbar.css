@@ -1,0 +1,20 @@
+#navbar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+/* 
+  #logoTitle {
+    display: inline-block;
+    height: 100%;
+    padding-left: 20px;
+  } */
+
+  .logoImg {
+    width: 64px;
+    height: 64px;
+  }
+
+  .navbar-logoImg {
+    display: inline-flex !important;
+  }
