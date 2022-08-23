@@ -1,15 +1,24 @@
-import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
+import React from 'react';
+import Navbar from "./components/Navbar";
+import './App.css';
+import Home from "./components/pages/Home";
 import { Routes, Route } from "react-router-dom";
-import "./App.css"
+// import Services from './components/pages/Services';
+// import Products from './components/pages/Products';
+// import SignUp from './components/pages/SignUp';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="/" exact />
-      </Routes>
+
+        <Navbar />
+        <Routes>
+          <Route path='/' exact element={<Home/>}/>
+          {/* <Route path='/services' component={Services} />
+          <Route path='/products' component={Products} />
+          <Route path='/sign-up' component={SignUp} /> */}
+        </Routes>
+
     </>
   );
 }
