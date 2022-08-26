@@ -36,7 +36,7 @@ function Cards() {
               path='/products'
             />
             <CardItem
-              src='images/signup.jpeg'
+              src='images/img-6.jpg'
               text='Sign-Up For Our Newsletter And Stay Up To Date On New Services And Discounts!'
               label='Info'
               path='/sign-up'
