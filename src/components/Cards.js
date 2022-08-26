@@ -32,7 +32,7 @@ function Cards() {
             <CardItem
               src='images/New.jpeg'
               text='Buy Top Of The Line New Batteries At A Great Price/ Satisfaction Guaranteed'
-              label='Product'
+              label='Service'
               path='/products'
             />
             <CardItem
